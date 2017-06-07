@@ -65,7 +65,7 @@ MC4000 "DK0" (Drink-0)
 - slp 4
 ```
 
-MC6000 "DK12" (Drink-1 and Drink-2)
+MC6000 (Drink-1 and Drink-2)
 ```asm
   slp 6
   mov 100 p0
