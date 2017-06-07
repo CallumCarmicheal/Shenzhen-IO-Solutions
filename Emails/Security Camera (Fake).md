@@ -3,21 +3,21 @@ You have been told to create a simple Led blinking feature on a fake camera to i
 
 You have 2 boards: 
 ```
-    |--------------------------
-    |  Output                 |
-    /  "active"               |
-___/   |                      |
-|      |---  MC4000 "Red Led" |
-|                             |
-|------------------------------
+    /---------------------------\
+    |  Output                   |
+    /  "active"                 |
+___/   |                        |
+|      \--- p0:MC4000 "Red Led" |
+|                               |
+\-------------------------------/
 
-|------------------------------
-|     Ouput                   |
-\__   "network"               |
-   \  |                       |
-    \ |-- MC4000 "Blue Led"   |
-    |                         |
-    |--------------------------
+/-------------------------------\ 
+|     Ouput                     |
+\__   "network"                 |
+   \  |                         |
+    \ \-- p0:MC4000 "Blue Led"  |
+    |                           |
+    \---------------------------/
 ```
 
 
@@ -30,7 +30,7 @@ MC4000 "Red Led"
 ```
 
 MC4000 "Blue Led"
-```
+```asm
 start: mov 0 p0
   slp 4
   mov 100 p0 
