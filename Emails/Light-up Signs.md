@@ -80,7 +80,7 @@ MC6000 "DK12" (Drink-1 and Drink-2)
 ```
 
 ### Diagram
-![Diagram](https://github.com/CallumCarmicheal/Shenzhen-IO-Solutions/blob/master/Emails/Images/Light-up&20Signs.PNG?raw=true "Diagram")
+![Diagram](https://github.com/CallumCarmicheal/Shenzhen-IO-Solutions/blob/master/Emails/Images/Light-up%20Signs.PNG?raw=true "Diagram")
 
 
 ### Notes
