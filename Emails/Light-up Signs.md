@@ -15,7 +15,7 @@ You have a single boards, 2 MC4000's and a Signle MC6000:
 |      | + mov 0 p1         |   |     | - slp 4            |              |
 |      | - mov 100 p1       |   |     |                    |              |
 |  /-p0|   slp 1            |   | /-p0|                    |              |
-|  |   \----"   DK 0   "----/   | |   \----"  DK  12  "----/              |
+|  |   \----"   CLK    "----/   | |   \----"    DK    "----/              |
 |  |                            | |                                       |
 |  |              /-------------/ |                                       |
 |  |              |               |       /------ MC 6000 ------\         |
@@ -37,6 +37,7 @@ You have a single boards, 2 MC4000's and a Signle MC6000:
 |  |              |           |               |           |               |
 |  Output        Output       \---Output      Output      Output          |
 |  "click-0"     "click-1"        "drink-0"   "drink-1"   "drink-2"       |
+|                                                                         |
 |-------------------------------------------------------------------------|
 ```
 
@@ -54,7 +55,7 @@ MC4000 "CLK" (Click-0 and Click-1)
 
 ```
 
-MC4000 "DK0" (Drink-0)
+MC4000 "DK" (Drink-0)
 ```asm
   teq acc 0
 + mov 100 acc
