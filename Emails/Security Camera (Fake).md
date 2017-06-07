@@ -5,7 +5,7 @@ You have 2 boards:
 ```
     |--------------------------
     |  Output                 |
-	/  "active"               |
+    /  "active"               |
 ___/   |                      |
 |      |---  MC4000 "Red Led" |
 |                             |
@@ -16,8 +16,8 @@ ___/   |                      |
 \__   "network"               |
    \  |                       |
     \ |-- MC4000 "Blue Led"   |
-	|                         |
-	|--------------------------
+    |                         |
+    |--------------------------
 ```
 
 
@@ -42,6 +42,7 @@ start: mov 0 p0
 ```
 
 ### Diagram
+![Diagram](https://github.com/CallumCarmicheal/Shenzhen-IO-Solutions/blob/master/Emails/Images/Security%20Camera%20(Fake).PNG?raw=true "Diagram")
 
 
 ### Notes
